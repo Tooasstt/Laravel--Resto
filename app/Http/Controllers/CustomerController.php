@@ -21,7 +21,7 @@ class CustomerController extends Controller
         // call get allcuustomer function and return all data and initialize the customer data variable
         // $this-> means the function is inside of the same controller
         $customerData =$this-> getAllCustomer();
-
+//dd
         return view('home', compact('customerData'));
     }
 }
