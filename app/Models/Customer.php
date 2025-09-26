@@ -12,11 +12,11 @@ class Customer extends Model
     protected $table='customer_table';
 
     //primary key
-    protected $primarykey ='cust_id';
+    protected $primaryKey ='cust_id';
 
     //fillables= columns that you can changed, edit, or add
     protected $fillable =[
-        'cust_name',
+        'custname',
         'cust_address'
     ];
 }
