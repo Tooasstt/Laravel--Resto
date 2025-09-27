@@ -18,4 +18,3 @@ Route::delete('/customerDelete/{cust_id}',[CustomerController::class,'deleteCust
 
 Route::put('/saveEditCustomer/{cust_id}',[CustomerController::class,'saveEditCustomers'])->name('saveEditCustomer');
 
-
